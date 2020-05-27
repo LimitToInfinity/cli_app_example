@@ -1,6 +1,9 @@
 require_relative 'config/environment'
 
-Cli.new.start_game
+app = Cli.new
 
+app.main_menu
 
+app.show_cats
 
+app.show_selected_cat
